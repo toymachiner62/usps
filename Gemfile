@@ -1,8 +1,8 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gemspec
 
 group :development do
   gem 'rake'
-  gem 'rspec', '~> 1.3', :require => 'spec'
+  gem 'rspec', '~> 2.14', :require => 'spec'
 end

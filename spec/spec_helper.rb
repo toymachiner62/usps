@@ -1,5 +1,6 @@
 require 'bundler/setup'
-Bundler.require(:default, :development)
+Bundler.setup
+#Bundler.require(:default, :development)
 
 require 'usps'
 USPS.username = 'TESTING'

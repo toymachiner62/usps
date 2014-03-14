@@ -8,7 +8,7 @@ describe USPS::Response::TrackingFieldLookup do
     
     response.summary.event.should == "DELIVERED"
     response.summary.city.should == "NEWTON"
-    response.summary.date.to_s.should == '2001-05-21 12:12:00 -0400'
+    response.summary.date.to_s.should == '2001-05-21 12:12:00 -0500'
     response.summary.event_time.should == "12:12 pm"
     response.summary.event_date.should == "May 21, 2001"
     response.summary.event_state.should == "IA"
