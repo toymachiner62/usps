@@ -8,6 +8,7 @@ describe USPS::Configuration do
 
   it "should have some sensible defaults" do
     @config.username.should be_nil
+    @config.password.should be_nil
     @config.timeout.should == 5000
     @config.testing.should be_false
   end

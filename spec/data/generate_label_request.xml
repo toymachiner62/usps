@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<DelivConfirmCertifyV4.0Request USERID="XXXXXX" PASSWORD="XXXXXX"> 
+ <Revision>2</Revision> 
+ <ImageParameters /> 
+ <FromName>John Doe</FromName> 
+ <FromFirm>USPS</FromFirm> 
+ <FromAddress1>RM 2100</FromAddress1> 
+ <FromAddress2>475 L’Enfant Plaza SW</FromAddress2> 
+ <FromCity>Washington</FromCity> 
+ <FromState>DC</FromState> 
+ <FromZip5>20260</FromZip5> 
+ <FromZip4/> 
+ <ToName>Janice Dickens</ToName> 
+ <ToFirm>XYZ Corporation</ToFirm>
+ <ToAddress1>Ste 100</ToAddress1> 
+ <ToAddress2>2 Massachusetts Ave NE</ToAddress2> 
+ <ToCity>Washington</ToCity> 
+ <ToState>DC</ToState> 
+ <ToZip5>20212</ToZip5> 
+ <ToZip4 /> 
+ <ToPOBoxFlag></ToPOBoxFlag> 
+ <WeightInOunces>10</WeightInOunces> 
+ <ServiceType>Priority</ServiceType> 
+ <SeparateReceiptPage>False</SeparateReceiptPage> 
+ <POZipCode>20770</POZipCode> 
+ <ImageType>TIF</ImageType> 
+ <AddressServiceRequested>False</AddressServiceRequested> 
+ <HoldForManifest>N</HoldForManifest> 
+ <Container>NONRECTANGULAR</Container> 
+ <Size>LARGE</Size> 
+ <Width>7</Width> 
+ <Length>20.5</Length> 
+ <Height>15</Height> 
+ <Girth>60</Girth> 
+ <ReturnCommitments>true</ReturnCommitments> 
+</DelivConfirmCertifyV4.0Request>

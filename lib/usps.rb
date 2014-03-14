@@ -11,6 +11,7 @@ module USPS
   autoload :VERSION,       'usps/version'
   autoload :Response,      'usps/response'
   autoload :TrackDetail,   'usps/track_detail'
+  autoload :Label,				 'usps/label'
 
   class << self
     attr_writer :config
@@ -38,6 +39,14 @@ module USPS
 
     def username
       config.username
+    end
+    
+    def password=(password)
+    	config.password = password
+    end
+    
+    def password
+    	config.password
     end
 
     def get_city_and_state_for_zip(zip)

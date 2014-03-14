@@ -4,6 +4,7 @@ Bundler.setup
 
 require 'usps'
 USPS.username = 'TESTING'
+USPS.password = 'PASSWORD'
 
 def load_data(path)
   (@_file_cache ||= {})[path] ||= File.read(File.expand_path("../data/#{path}", __FILE__))

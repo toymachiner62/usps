@@ -12,5 +12,6 @@ describe USPS::Request::Base do
 
     xml.root.name.should == 'TestingTag'
     xml.root.attr('USERID').should == USPS.username
+    xml.root.attr('PASSWORD').should == USPS.password
   end
 end

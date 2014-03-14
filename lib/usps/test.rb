@@ -21,6 +21,7 @@ module USPS
     USPS.configure do |config|
       # Being explicit even though it's set in the configuration by default
       config.username = ENV['USPS_USER']
+      config.password = ENC['USPS_PASS']
 
       # Set USPS_LIVE to anything to run against production
       config.testing  = true

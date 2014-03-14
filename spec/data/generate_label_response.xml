@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<DelivConfirmCertifyV4.0Response> 
+ <DeliveryConfirmationNumber>4202077094055XXXXXXXXXXXXXXXXX</DeliveryConfirmationNumber> 
+ <DeliveryConfirmationLabel>  SUkqAAgAAAASAP4ABAABAAAAAAAAAAA...<!-- Truncated -->  </DeliveryConfirmationLabel> 
+ <ToName>JANICE DICKENS</ToName>  
+ <ToFirm>XYZ CORPORATION</ToFirm> 
+ <ToAddress1>STE 100</ToAddress1>  
+ <ToAddress2>2 MASSACHUSETTS AVE NE</ToAddress2>  
+ <ToCity>WASHINGTON</ToCity>  
+ <ToState>DC</ToState> 
+ <ToZip5>20212</ToZip5> 
+ <ToZip4>0002</ToZip4> 
+ <Postnet>2021200202</Postnet> 
+ <RDC>0024</RDC> 
+ <Postage>5.60</Postage> 
+ <Zone>1</Zone> 
+ <InsuranceFee>0</InsuranceFee> 
+ <CarrierRoute>C000</CarrierRoute> 
+ <Commitment> 
+ 	<CommitmentName>2-Day</CommitmentName> 
+ 	<ScheduledDeliveryDate>2013-07-26</ScheduledDeliveryDate> 
+ </Commitment> 
+</DelivConfirmCertifyV4.0Response> 
